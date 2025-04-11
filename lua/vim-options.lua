@@ -19,10 +19,10 @@ vim.keymap.set('n', '<A-j>', ':wincmd k<CR>') -- Above pane
 vim.keymap.set('n', '<A-l>', ':wincmd l<CR>') -- Right pane
 
 -- Remap k to move one line down
-vim.keymap.set('n', 'k', 'j', { noremap = true })
+-- vim.keymap.set('n', 'k', 'j', { noremap = true })
 
 -- Remap j to move one line up
-vim.keymap.set('n', 'j', 'k', { noremap = true })
+-- vim.keymap.set('n', 'j', 'k', { noremap = true })
 
 
 -- Enable mouse support
