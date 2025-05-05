@@ -7,6 +7,7 @@ vim.g.mapleader = " "
 -- Enable line numbers
 vim.wo.relativenumber = true
 vim.wo.number = true
+vim.o.textwidth = 80
 
 vim.keymap.set('n', '<A-Down>', ':q<CR>', {})
 vim.keymap.set('n', '<A-Up>', ':q!<CR>', {})
